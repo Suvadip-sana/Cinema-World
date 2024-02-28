@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manubar{
+    overflow: hidden;
+    background-color: rgb(68, 65, 65);
+}
+.manubar a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.profile{
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 28px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    text-align: center;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: #ddd;
+}
+.profile img{
+    float: left;
+    margin: 0px 16px 0 -27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.manubar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.manubar a.split {
+      float: right;
+      background-color: #0fbc51;
+      color: white;
+}
+.manubar a.split :hover{
+    background-color: #128b40;
+}
+i{
+    font-weight: bold;
+    font-size: 17px;
+}

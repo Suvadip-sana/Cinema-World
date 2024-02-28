@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('806443.jpg');
+}
+th{
+border-style: solid;
+border-color: aliceblue;
+color: rgb(148, 247, 0);
+text-align: center;
+padding: 15px 40px;
+}
+td{
+border-style: solid;
+border-color: aliceblue;
+color: aliceblue;
+text-align: center;
+padding: 5px;
+}
+table{
+border-color: aliceblue;
+}

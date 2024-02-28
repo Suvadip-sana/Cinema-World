@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('806443.jpg');
+}
+h1{
+color: aliceblue;
+}
+th{
+border-style: solid;
+border-color: aliceblue;
+color: rgb(15, 249, 3);
+text-align: center;
+padding: 15px 40px;
+}
+td{
+border-style: solid;
+border-color: aliceblue;
+color: rgb(254, 254, 255);
+text-align: center;
+padding: 5px ;
+}
+table{
+border-color: aliceblue;
+padding: 40px 15px;
+}

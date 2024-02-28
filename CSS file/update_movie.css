@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('806443.jpg');
+}
+.up{
+max-width: 200px;
+max-height: 100px;
+padding: 30px;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+h1{
+color: aliceblue;
+}
+label{
+color: aliceblue;
+display: contents;
+margin-top: 10px;
+}
+
+input{
+width: 100%;
+border: none;
+outline: none;
+text-align: center;
+padding: 8px;
+margin-bottom: 20px;
+box-sizing: border-box;
+border-radius: 7px;
+
+}
+button{
+width: 100%;
+border: none;
+outline: none;
+background: rgb(6, 199, 6);
+padding: 8px 15px ;
+color: white;
+border-radius: 7px;
+cursor: pointer;
+}
+button:hover{
+background-color: rgb(18, 153, 18);
+}
