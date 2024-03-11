@@ -12,7 +12,7 @@
     </head>
 
 <body>
-    <form action="confarm.jsp" method="post">
+    <form action="confarm1.jsp" method="post">
     <center>        
         
         <h1 style="color: rgb(38, 46, 111);">Select Your Seats</h1>
