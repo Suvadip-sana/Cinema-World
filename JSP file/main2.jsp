@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <form action="booking.jsp" method="post"> 
+    <form action="booking1.jsp" method="post"> 
         <center>
             <div>
             <h2>Your selected Movie is: <a style="color: rgb(89, 0, 255);"><%= selectedMovie %></a></h2>
