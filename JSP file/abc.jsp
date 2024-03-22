@@ -31,7 +31,6 @@
         out.println("<div class='congo'><h1>Congratulations! <br>Your account has been created successfully!</h1></div>");
     %>
     <button onclick="window.location.href='index.html'">Home</button>
-    <button onclick="window.location.href='user_signIn.html'">Login</button>
     </div>
 </body>
 </html>
