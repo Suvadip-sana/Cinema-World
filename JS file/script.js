@@ -27,8 +27,23 @@ function validateForm() {
     var mobileRegex = /[a-zA-Z]/;
 
     if (mobileRegex.test(mobileNumber)) {
-        errorMessage = "Mobile number should not contain string values.";
-        alert(errorMessage);
+        errorMessage = "Mobile number should only contain numeric values!!";
+
+        // Fetch the 'butt' div
+        var buttDiv = document.querySelector("h1");
+
+        // Create a new error message element
+        var newErrorMessage = document.createElement("p");
+        newErrorMessage.textContent = errorMessage;
+        newErrorMessage.style.color = "red";
+        newErrorMessage.style.textAlign = "center";
+
+        // Insert the new error message above the 'butt' div
+        if (buttDiv) {
+            buttDiv.parentNode.insertBefore(newErrorMessage, buttDiv);
+        }
+
+        // alert(errorMessage);
         return false;
     } else {
         return true;
