@@ -35,10 +35,11 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 Cinema World is an ongoing project, and there are several areas where it can be improved, including:
 - Enhancing the user interface for a more engaging experience.
 - Adding additional features such as payment integration, movie reviews, and user ratings, booking history.
-
+<!--
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+-->
 
 ## About the Author
 
