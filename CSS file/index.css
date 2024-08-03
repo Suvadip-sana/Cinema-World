@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(45deg, #000a12, #263238); 
+}
+
+.navbar {
+    background-color: #1b1f23; 
+    color: #ffffff;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.heading {
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #3e4a52;
+    color: white;
+}
+
+.button {
+    height: 9vh;
+    width: 8vw;
+    background-color: #3e4a52; 
+    color: #ffffff;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: #565f66; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 100%;
+    height: 84.5vh;
+}
+
+.marque {
+    margin-top: 20px;
+    color: #ff5252;
+    text-align: center;
+}
+
+.marque h3 {
+    color: #ff8a80;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+    height: 67vh;
+    margin-top: -90px;
+    background-color: rgba(34, 34, 34, 0.9); 
+}
+.users {
+    width: 80%;
+    height: 90%;
+}
+
+h1 {
+    font-size: 2.6rem;
+    text-align: center;
+    margin: 20px;
+    color: #ffffff; 
+}
+
+.descript {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: #cccccc; 
+}
+
+h2 {
+    display: block;
+    margin: 20px 0 10px 0;
+    text-align: left;
+    color: #ffffff; 
+}
+
+input {
+    width: 100%;
+    padding: 8px 8px 8px 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #555555;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #1b1f23; 
+    color: #ffffff !important; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Style for filled input fields */
+input:not(:placeholder-shown) {
+    background-color: #1b1f23; 
+    color: #ffffff !important; 
+}
+
+input:focus {
+    border-color: #3e4a52; 
+    box-shadow: 0 0 5px rgba(62, 74, 82, 0.5);
+    color: white !important;
+
+}
+
+input::placeholder {
+    font-size: 1rem;
+    color: #aaaaaa;
+}
+
+/* Style for autofilled input fields */
+input:-webkit-autofill {
+    background-color: #1b1f23 !important; 
+    color: #ffffff !important; 
+    -webkit-box-shadow: 0 0 0 30px #1b1f23 inset !important; 
+    -webkit-text-fill-color: #ffffff !important; 
+}
+
+.butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 20px 0;
+}
+
+.b1 {
+    background-color: #ff5252; 
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    width: 40%;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.b2 {
+    background-color: #3e4a52; 
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    width: 40%;
+    margin-left: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.b1:hover {
+    background-color: darkred;
+}
+
+.b2:hover {
+    background-color: #565f66; 
+}
+
+.end {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #cccccc; 
+}
+
+.end a {
+    color: #82b1ff; 
+    text-decoration: none;
+}
+
+.end a:hover {
+    text-decoration: underline;
+}
